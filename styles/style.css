@@ -1,0 +1,88 @@
+/* #region Variables */
+
+:root {
+    --body-bg-color: rgb(255, 251, 245);
+    --header-bg-color: white;
+    --primary-text-color: black;
+    --footer-bg-color: rgb(37, 37, 37);
+    --footer-text-color: white;
+}
+
+/* #endregion */
+
+
+/* #region Resets */
+
+body {
+    background-color: var(--body-bg-color);
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
+/* #endregion */
+
+
+/* Text */
+
+h1, p {
+    color: var(--primary-text-color);
+}
+
+
+
+/* Layout */
+
+header {
+    background-color: var(--header-bg-color);
+    border: solid 1px black;
+    width: 90%;
+    height: 6em;
+}
+
+header nav {
+    width: 74em;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 74em;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    height: 6em;
+    width: 90%;
+    display: flex;
+}
+
+
+
+/* #region Navigation */
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav img {
+    margin: 1.25em 0;
+}
+
+nav li a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+/* #endregion */
+
+
+/* Main content */
+
+
+/* Footer content */
