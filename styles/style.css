@@ -36,26 +36,29 @@ h1, p {
 header {
     background-color: var(--header-bg-color);
     border: solid 1px black;
-    width: 90%;
     height: 6em;
+    margin: 1.5em 3em;
+    display: flex;
+    align-items: center;
+}
+
+header .logo_wrapper {
+    margin: 0 3em 0 3.5em;
+}
+
+header img {
+    width: 10em;
 }
 
 header nav {
-    width: 74em;
-    margin: 0 auto;
-}
-
-main {
-    max-width: 74em;
-    margin: 0 auto;
-    padding: 4em 0;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 footer {
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
     height: 6em;
-    width: 90%;
     display: flex;
 }
 
@@ -67,10 +70,8 @@ nav ul {
     padding: 0;
     list-style: none;
     display: flex;
-}
-
-nav img {
-    margin: 1.25em 0;
+    justify-content: flex-start;
+    gap: 3em;
 }
 
 nav li a {
@@ -83,6 +84,40 @@ nav li a {
 
 
 /* Main content */
+
+main {
+   /*  max-width: 100%; */
+    margin: 0 10em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article_wrapper article {
+    height: auto;
+    width: 100%;
+
+}
+
+
+.product_container {
+    border: solid 1px black;
+    border-radius: 1em;
+}
+
 
 
 /* Footer content */
