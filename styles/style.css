@@ -3,6 +3,7 @@
 :root {
     --body-bg-color: rgb(255, 251, 245);
     --header-bg-color: white;
+    --products-bg-color: white;
     --primary-text-color: black;
     --footer-bg-color: rgb(37, 37, 37);
     --footer-text-color: white;
@@ -109,13 +110,14 @@ article {
 .article_wrapper article {
     height: auto;
     width: 100%;
-
 }
 
-
 .product_container {
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 1em;
+    background-color: var(--products-bg-color);
+    width: 18em;
+    height: 18em;
 }
 
 
