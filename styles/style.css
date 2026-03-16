@@ -116,8 +116,10 @@ article {
     border: solid 1px rgb(255, 255, 255);
     border-radius: 1em;
     background-color: var(--products-bg-color);
-    width: 18em;
-    height: 18em;
+    width: 20em;
+    height: 20em;
+    display: grid;
+    place-items: center;
 }
 
 
