@@ -61,6 +61,10 @@ a {
     font-size: 1.25em;
 }
 
+small {
+    font-size: large;
+}
+
 
 /* #region Header, Footer & Navigation */
 
@@ -137,4 +141,10 @@ article {
     height: 20em;
     display: grid;
     place-items: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: 1fr 1fr;
 }
