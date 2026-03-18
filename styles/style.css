@@ -7,6 +7,7 @@
     --primary-text-color: black;
     --footer-bg-color: rgb(37, 37, 37);
     --footer-text-color: white;
+    --span-text-color:rgb(29, 101, 255);
 }
 
 /* #endregion */
@@ -131,6 +132,7 @@ main {
     gap: 2em 1em;
 }
 
+
 article {
     display: flex;
     flex-direction: column;
@@ -149,8 +151,17 @@ article {
     place-items: center;
 }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr .5fr;
-    grid-template-rows: 1fr 1fr;
+/* index.html specific styling */
+
+.article_wrapper_index {
+    grid-template-columns: 1fr;
 }
+
+figure img {
+    width: 100%;
+}
+
+span {
+    color: var(--span-text-color);
+}
+
